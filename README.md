@@ -1,2 +1,2 @@
-# LinuxCommands
-Here I am going to create my linux notes 
+# Devops Journey 
+Here I am going to document my DevOps Journey  
