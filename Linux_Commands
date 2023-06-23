@@ -1,0 +1,16 @@
+22 june 2023
+
+today I learned about 
+linux commands 
+ls - to list all the files 
+pwd - 
+vi - to create a file (files editor)
+more - to read file data and and also search txt data 
+cd - change direcotry 
+mkdir - make directory 
+mv - move a file, (Change the name of the file )mv appendix(old file name) apndx.a (New file name) it just rename the file no file is move
+cp - (move and copy and paste)
+rm - remove the file 
+touch - to create a quick file 
+cat - to display the data present in the file 
+$ - #SHELL (Home Directory), $ECHO the $ represent variables 
