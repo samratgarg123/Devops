@@ -13,5 +13,18 @@ docker rm [container ID] - to permanently delete the container
 docker images - to list down all the images 
 docker rmi - to delete the image 
 
-
+Docker Run 
 How to make docker images interactive use (docker run -it (image_name)) 
+docker logs [container_id]
+docker run -d [image] - to run in detach mode / background 
+docker attach [container ID] - to again run in attach mode 
+
+
+
+
+
+
+
+
+
+
