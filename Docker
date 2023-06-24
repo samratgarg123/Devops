@@ -1,1 +1,17 @@
+23 June 2023 
+Docker Training Course for the Absolute Beginner
 
+Docker is used to run different container applications to create libs and dependencies without setting up that environment 
+
+The Docker Hub website is essential for finding images of different applications
+
+docker run - it is used to run the docker command or docker images 
+docker ps - it is used to display all the information of the container 
+docker ps -a (to display all the containers whether they are running or not) 
+docker stop [container ID] - to stop running container (it only stops but still present)
+docker rm [container ID] - to permanently delete the container
+docker images - to list down all the images 
+docker rmi - to delete the image 
+
+
+How to make docker images interactive use (docker run -it (image_name)) 
