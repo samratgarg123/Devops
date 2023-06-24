@@ -16,8 +16,26 @@ docker rmi - to delete the image
 Docker Run 
 How to make docker images interactive use (docker run -it (image_name)) 
 docker logs [container_id]
-docker run -d [image] - to run in detach mode / background 
+
+24 June 2023 
+docker run -d [image] - to run in detach mode/background 
 docker attach [container ID] - to again run in attach mode 
+
+Docker Images 
+Do it practically 
+
+Docker Compose - it is just like shell scripting where you define all the images and containers in yaml file like a database from mongo db website framework from Django in one yaml file 
+
+Do it by building a voting system and other yt projects
+
+Container Orchestration - It is a more advanced and improved version of docker as in docker you have to run multiple images combine them but they become very complex to solve this problem container orchestration (e.g Kubernetes and Docker Swarm ) come in which we can handle multiple images and every cloud provider supports Kubernetes to run different applications  
+
+The main problem with docker is scaling whereas in Kubernetes you can easily scale the application by creating the instances 
+
+
+
+
+
 
 
 
