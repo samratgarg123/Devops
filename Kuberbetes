@@ -1,1 +1,13 @@
+27 June 2023 
 
+1. kubernetes Overview 
+Kubernetes commands
+
+kubectl - just like the docker command to perform anything on Kubernetes 
+Kubernetes = container(docker) + orchestration (ansible)
+os kernel is used to mana
+
+kubectl get nodes - it is used to find number of nodes in the cluster/ info of the cluster
+kubectl get nodes -o wide - to find flavor and version of Operating System on which the Kubernetes nodes
+
+2. 
