@@ -55,6 +55,30 @@ spec:
 kubectl apply -f pod.yaml
 
 29 June 2023 
+Replication Controllers and ReplicaSets - it is used to create copy of the pod because if pod die this pod will handle it 
+
+Replicaset
+main thing that change is kind Pod, replicaSet and deployment 
+
+
+kubectl create -f deployment.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
