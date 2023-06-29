@@ -16,6 +16,8 @@ To scale the applcation add new pods and vice verse not to add a new Kubernetes 
 
 How to create a pod 
 kubectl run nginx(name of pod) --image nginx (--image nginx take image from docker hub of nginx)
+kubectl delete pod webapp to delete the pod
+kubectl edit pod redis - to edit pod image or name 
 
 kubectl get pods - To list the pods available 
 kubectl describe pod nginx - to provide more info of pod in detail
@@ -38,10 +40,22 @@ Kubernetes Concepts – Pods, ReplicaSets, Deployments
 yaml in kubernetes
 Creating a pod without kubectl commands from yaml command 
 
-apiVersion:
-kind:
-metadata:
+apiVersion: v1 
+kind: Pod (P capital)
+metadata:(Dictionary)
+  name: nginx
+  labels: 
+    app: nginx
+    tier: frontend
 spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+kubectl apply -f pod.yaml
+
+29 June 2023 
+
 
 
 
