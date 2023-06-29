@@ -19,4 +19,37 @@ kubectl run nginx(name of pod) --image nginx (--image nginx take image from dock
 
 kubectl get pods - To list the pods available 
 kubectl describe pod nginx - to provide more info of pod in detail
-kubectl get pods -o wide - provide info about node in concise manner
+kubectl get pods -o wide - give info on node in a concise manner
+
+Yaml in simple manner (data in yaml is present in key:value pair form)
+color : red (variable)
+color:   (list)
+  - red
+    blue 
+color:   (dictionary)
+    red
+    blue 
+  name:
+      samrat
+      love
+28 June 2023
+Kubernetes Concepts – Pods, ReplicaSets, Deployments
+
+yaml in kubernetes
+Creating a pod without kubectl commands from yaml command 
+
+apiVersion:
+kind:
+metadata:
+spec:
+
+
+
+
+
+
+
+
+
+
+
