@@ -63,9 +63,10 @@ main thing that change is kind Pod, replicaSet and deployment
 
 kubectl create -f deployment.yaml
 
-
-
-
+30 June 2023 
+Kubernetes interview
+ 
+what is kOps is an automation tool for Kubernetes used to setup cluster
 
 
 
