@@ -1,1 +1,16 @@
+30 june 2023 
+use osboxes to setup images in virtual machine 
+
+ansible inventory file linux = ssh , window = powershell (WinRm) window remote management
+inventory file = ansible_host=server1.company.com
+add a alias to inventory file / more details format
+db1 ansible_host=server1.company.com  and web1 ansible_host=server4.company.com
+
+web1 ansible_host=server1.company.com ansible_connection=ssh ansible_user=root ansible_ssh_pass=Password123!
+Linux-based hosts, use ansible_ssh_pass parameter and for Windows-based hosts, use ansible_password
+[all_servers:children]
+web_servers
+db_servers
+
+ansible playbook is written in yaml
 
