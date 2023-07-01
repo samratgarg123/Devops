@@ -35,7 +35,7 @@ name: "Update /var/www/html/index.html"
         create: true
 
 variable in ansible - vars: dns_server: 10.424.12 (in yaml)
-                     
+'{{ tmp_variable }}' - jinja2 template - 'nameserver {{  nameserver_ip  }}'
 
 
 
