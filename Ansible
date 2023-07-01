@@ -12,5 +12,32 @@ Linux-based hosts, use ansible_ssh_pass parameter and for Windows-based hosts, u
 web_servers
 db_servers
 
-ansible playbook is written in yaml
+1 july 2023
+ansible-playbook is written in yaml file 
+define localhost - on host where all the operations done 
+
+ansible-playbook playbook.yaml (to execute the playbook)
+ansible-playbook -i inventory playbook.yaml (execute and show all the changes)
+
+ansible-doc - to see commands 
+System modules are actions to be performed at a system level such as modifying the users and groups on a system, modifying iptables, starting/stopping the service etc.
+
+- name: 'hosts'
+  hosts: all
+  become: yes
+  tasks:
+    - name: 'Execute a script'
+      script: '/tmp/install_script.sh'
+name: "Update /var/www/html/index.html"
+      lineinfile:
+        path: /var/www/html/index.html
+        line: "Welcome to ansible-beginning course"
+        create: true
+
+variable in ansible - vars: dns_server: 10.424.12 (in yaml)
+                     
+
+
+
+
 
