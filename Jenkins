@@ -9,3 +9,20 @@ sudo yum install java-11-openjdk -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo --no-check-certificate
 sudo rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo yum install jenkins -y
+
+Jenkins also has GUI to understand the working of the people and ports 
+ssh -i /home/mike/.ssh/jenkins_key -l mike -p 8022 jenkins-server help
+ssh -i /home/mike/.ssh/jenkins_key -l mike -p 8022 jenkins-server safe-restart
+-i flag is used to point to mike's private SSH key. Remember, we have already added the public key in the Jenkins configuration.
+-l is the login user which in our example is mike
+-p is the port which we found out in the previous step to be 8022
+
+sudo systemctl restart jenkins
+systemctl status jenkins
+
+install-plugin disable-plugin 
+java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' install-plugin cloudbees-bitbucket-branch-source
+sudo service jenkins restart
+
+
+
