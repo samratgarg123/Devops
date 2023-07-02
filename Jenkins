@@ -1,0 +1,11 @@
+1 July 2023 - Jenkins / start learn about git also 
+Continuous Integration - is just like git clone copy and packing the code then test integration test + security check 
+Continuous Delivery(code it still in running process) Deployment (code is deployed)(CICD) - it is the prcosess of deployed the code to docker/ serverless computer 
+jenkins is free and open source and jenkins have lots of plugins/ api 
+java is required to install jenkins 
+To install jenkinks 
+sudo yum install epel-release -y
+sudo yum install java-11-openjdk -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo --no-check-certificate
+sudo rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum install jenkins -y
