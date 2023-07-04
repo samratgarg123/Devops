@@ -22,7 +22,25 @@ systemctl status jenkins
 
 install-plugin disable-plugin 
 java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' install-plugin cloudbees-bitbucket-branch-source
-sudo service jenkins restart
+sudo service Jenkin restart
+
+4 July 2023
+Jenkins file is a template where we put instructions + template + pipiline
+
+jenkins file - Build agent, stages and steps / mutistage pipeline 
+only type name jenkinsfile - vs code know about it / stages have two or more stage
+
+pipeline from jenkins UI
+
+
+
+
+
+
+
+
+
+
 
 
 
