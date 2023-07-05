@@ -3,8 +3,9 @@ Azure Kubernetes - learn kubernetes on azure and get 2 certs of azure then apply
 
 Someone says the fastest way to learn cloud is by doing on cloud and build projects on it.
 
-
-
+Azure Landing zone, Azure compute (virtual machines - SQL (more memory, less compute power)) is work on and, intel and ampere
+Azure storage blob, azure files -  provides a durable and highly available file system in the cloud
+Azure database - MySQL, posture and cosmos DB (NoSQL data)
 
 
 
