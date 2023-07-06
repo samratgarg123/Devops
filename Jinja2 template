@@ -1,0 +1,32 @@
+6 july 2023 
+
+one templete for everyone name change (customizable template) template with many variable
+
+[[  file  }}
+string manipulations filter
+{{ name | upper/lower }}
+
+list and set
+min }}
+{{[1,2,3]|| max }}
+{{1,2,3,2]l < unique }}
+{{[1,2,3,4]l union( ([4, , 5 ] } }
+{([1,2,3,4]l intersect( ([4, 5])}}
+
+loops 
+{% for number in [0,1,2,3,4] %}
+{{ number }}
+{% endfor %}
+
+conditions 
+{% for number in [0,1,2,3,4] %}
+    {% if number == 2 %}
+        {{ number }}
+    {% endif %}
+{% endfor %}
+
+{{ words | join(' ') }}
+{{ words | join(' ') | title}} - first letter capital 
+{{ words | wordcount }} - to count words
+
+
