@@ -30,8 +30,7 @@ Jenkins file is a template where we put instructions + template + pipiline
 jenkins file - Build agent, stages and steps / mutistage pipeline 
 only type name jenkinsfile - vs code know about it / stages have two or more stage
 
-pipeline from jenkins UI for deployment also just copy-paste the code
-
+pipeline from jenkins UI for deployment also just copy-paste the cod
 
 
 
