@@ -1,0 +1,5 @@
+15 July 2023
+Challenges with Traditional IT Infrastructure as code 
+Problem with traditional infrastructure - Terraform automation the updating or uploading new application by GCP and Azure 
+Iac tools  category configuration tool (ansible), server templating (docker)and provisioning tool (terraform)
+Infrastructure as code - writing everything as code and making changes to code 
