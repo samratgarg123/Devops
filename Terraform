@@ -1,5 +1,37 @@
 15 July 2023
 Challenges with Traditional IT Infrastructure as code 
-Problem with traditional infrastructure - Terraform automation the updating or uploading new application by GCP and Azure 
+Problem with traditional infrastructure - Terraform automation the updating or uploading new applications by GCP and Azure 
 Iac tools  category configuration tool (ansible), server templating (docker)and provisioning tool (terraform)
 Infrastructure as code - writing everything as code and making changes to code 
+
+Terraform can used with all cloud providers even with vmware and physical machines 
+Hashicorp configuration language (.tf)
+Resource Blocks - block name (resource type) resource name
+resource "local file" "pet" {
+  filename = "/root/pets.txt"
+   content = "We love pets!" }
+
+resource "aws_instance" "webserver" {
+     ami = "ami-0c2f25c1f66a1ff4d"
+    instance_type = "t2.micro" }
+
+terrafrom commands 
+terraform init - to initiate (first then other commands )
+terraform plan - display all the information + file is created 
+terraform apply (type yes)- to apply and to confirm the build  {cat command is used to check file }
+terraform show - to show all details that are created 
+
+Update and Destroy Infrastructure
+terraform ddestroy command 
+
+
+
+
+
+
+
+
+
+
+
+
