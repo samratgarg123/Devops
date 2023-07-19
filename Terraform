@@ -24,10 +24,8 @@ terraform show - to show all details that are created
 Update and Destroy Infrastructure
 terraform ddestroy command 
 
-
-
-
-
+A terraform file can have as many configuration file 
+Terrafroms Basics 
 
 
 
