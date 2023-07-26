@@ -25,7 +25,17 @@ Update and Destroy Infrastructure
 terraform ddestroy command 
 
 A terraform file can have as many configuration file 
-Terrafroms Basics 
+Terrafroms Basics - Start implementing basics commands 
+
+
+
+
+
+
+
+
+
+
 
 
 
